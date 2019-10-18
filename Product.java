@@ -20,6 +20,8 @@ public class Product {
 	   Product windex = new Product("Windex", 6703456, "Cleaning liquid", "Aisle 265 Sec M");
 	   System.out.println(windex);
 	  }
+	  
+	  
 	  public String toString(){
 	      return "Product: " + name + "\n" + "Sku: " + sku + "\n" + "Description: " + description
 	      + "\n" + "Location: " + location;
